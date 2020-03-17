@@ -1,0 +1,273 @@
+<html>
+ <head><title>♡ 미니와 희야의 해바라기 ♡</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=euc-kr'>
+  <LINK REL='stylesheet'  TYPE='text/css' HREF='/css/stylesheet.css'>
+  <style>
+	A.new:visited, A.tail:link, A.tail:active
+		{ text-decoration: none; color:'#FF6800'; font-size:9pt; font-family:'굴림','돋움체'}
+
+	A.new:hover
+		{ text-decoration: none; color:'#FF1F02'; font-size:9pt; font-family:'굴림','돋움체'}
+  </style>
+
+<script language="JavaScript">
+<!--
+function musicOff() {
+document.sound.stop()
+}
+function musicOn() {
+document.sound.play()
+}
+function changeButton() {
+if (document.onoff.bgmusic.value=='Music OFF') {
+document.onoff.bgmusic.value='Music ON';
+musicOff()
+}
+else {
+document.onoff.bgmusic.value='Music OFF';
+musicOn()
+}
+}
+//-->
+</script>
+
+
+
+<script language="JavaScript">
+<!-- // Scrolling message settings
+
+var MessageText = "   자기야~ 사랑해~♡ Forever~~ O*^o^*O  내맘알쥐? ㅋㅋㅋㅋ"
+var DisplayLength = 300  //시간 간격입니다.
+var pos = 1 - DisplayLength;
+function ScrollInStatusBar(){
+var scroll = "♡ 미니와 희야의 해바라기 ♡";
+pos++;
+if (pos == MessageText.length) pos = 1 - DisplayLength;
+if (pos<0) {
+        for (var i=1; i<=Math.abs(pos); i++)
+        scroll = scroll + "";
+            scroll = scroll + MessageText.substring(0, DisplayLength - i + 1);
+}
+else
+    scroll = scroll + MessageText.substring(pos, pos + DisplayLength);
+window.status = scroll;
+//Scrolling speed
+setTimeout("ScrollInStatusBar()",0);
+}
+ScrollInStatusBar()
+
+// -->
+</script>
+
+
+<!-- 메뉴 Mouse On 스크립트 시작-->
+<script language="JavaScript">
+
+img1on = new Image( );
+img1on.src = "images/menu1-over.jpg";
+
+img1off = new Image( );
+img1off.src = "images/menu1-base.jpg";
+
+img2on = new Image( );
+img2on.src = "images/menu2-over.jpg";
+
+img2off = new Image( );
+img2off.src = "images/menu2-base.jpg";
+
+img3on = new Image( );
+img3on.src = "images/menu3-over.jpg";
+
+img3off = new Image( );
+img3off.src = "images/menu3-base.jpg";
+
+img4on = new Image( );
+img4on.src = "images/menu4-over.jpg";
+
+img4off = new Image( );
+img4off.src = "images/menu4-base.jpg";
+
+img5on = new Image( );
+img5on.src = "images/menu5-over.jpg";
+
+img5off = new Image( );
+img5off.src = "images/menu5-base.jpg";
+
+img6on = new Image( );
+img6on.src = "images/menu6-over.jpg";
+
+img6off = new Image( );
+img6off.src = "images/menu6-base.jpg";
+
+img7on = new Image( );
+img7on.src = "images/menu7-over.jpg";
+
+img7off = new Image( );
+img7off.src = "images/menu7-base.jpg";
+
+function img_act(imgName) {
+document [imgName].src = eval(imgName + "on.src");
+}
+
+function img_inact(imgName) {
+document [imgName].src = eval(imgName + "off.src");
+}
+
+</script>
+<!-- 메뉴 Mouse On 스크립트 끝-->
+
+
+
+ </head>
+ <body  leftmargin=0 topmargin=0 text="#ffffff" background="images/menu-back.jpg"> <!--background="images/menu-back.jpg" -->
+  <br><br>
+  <center>
+<p>
+
+  <table border=0 align="center" cellpadding="0" cellspacing="0" align=center>
+   <tr>
+    <td align=center><a href="main-screen.html" target="screen"><img src="images/menu0.jpg" width="151" height="44" border=0 alt="메인화면으로 돌아갑니다~ ^^*"></a></td>
+   </tr>
+   <tr>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td align=center><a href="intro.html" target="screen" onmouseover="img_act('img1')" onmouseout="img_inact('img1')"><img src="images/menu1-base.jpg" border="0" name="img1" alt="미니와 희야를 소개합니다~ ^^*"></a></td>
+   </tr>
+   <tr>
+    <td align=center><a href="http://sunbaraki.netcci.net/bbs/zboard.php?id=board" target="screen" onmouseover="img_act('img2')" onmouseout="img_inact('img2')"><img src="images/menu2-base.jpg" border="0" name="img2" alt="날적이에요~ ^^"></a></td>
+   </tr>
+   <tr>
+    <td align=center><a href="http://sunbaraki.netcci.net/bbs/zboard.php?id=gallery" target="screen" onmouseover="img_act('img3')" onmouseout="img_inact('img3')"><img src="images/menu3-base.jpg" border="0" name="img3" alt="우리들의 추억이 새겨진 사진모음 *^^*"></a></td>
+   </tr>
+   <tr>
+    <td align=center><a href="http://cafe.daum.net/sunbaraki" target="_blank" onmouseover="img_act('img4')" onmouseout="img_inact('img4')"><img src="images/menu4-base.jpg" border="0" name="img4" alt="미니화 희야의 해바라기~ DAUM 까페(비공개)로.."></a></td>
+   </tr>
+   <tr>
+    <td align=center><a href="http://sunbaraki.netcci.net/bbs/zboard.php?id=pds" target="screen" onmouseover="img_act('img5')" onmouseout="img_inact('img5')"><img src="images/menu5-base.jpg" border="0" name="img5" alt="무한창고~ 자료공유~ 우하하하하~"></a></td>
+   </tr>
+   <tr>
+    <td align=center><a href="http://sunbaraki.netcci.net/bbs/zboard.php?id=guest" target="screen" onmouseover="img_act('img6')" onmouseout="img_inact('img6')"><img src="images/menu6-base.jpg" border="0" name="img6" alt="왔으면 쓰고 가시지요~ ^^"></a></td>
+   </tr>
+   <tr>
+    <td align=center><a href="http://lwchat.com/free1/lwchat.php?sid=oneday79801c" target="screen" onmouseover="img_act('img7')" onmouseout="img_inact('img7')"><img src="images/menu7-base.jpg" border="0" name="img7" alt="속닥~속닥~ 채팅방이에요~ ^^*"></a></td>
+   </tr>
+   <tr>
+    <td>&nbsp;</td>
+   </tr>
+
+   <!-- 기념일 카운터 -->
+      <tr>
+       <td align="center">
+        <table border=1 cellspacing=0 cellpadding=10 bordercolor=white>
+      <tr>
+       <td align=right>
+       <script language="JavaScript">
+        var today = new Date();
+        var day2004 = new Date("May 15, 2010");
+        var days = Math.ceil((day2004 - today) / 1000 / 24 / 60 / 60);
+       </script>
+       <FONT size=3 color=#CAF2F2><b>우리의&nbsp;&nbsp;<font color=gold>8주년</font><br>앞으로</b>
+       </FONT><FONT color=red size=5><b>
+       <script language="JavaScript">
+        document.write("" + days + "")
+       </script></b>
+       </FONT>
+        <FONT size=3 color=#CAF2F2><b>일<br>남았습니다.&nbsp;</b></FONT>
+       </td>
+      </tr>
+     </table>
+       </td>
+    <!-- 카운터 끝 -->
+
+   </tr>
+   <tr>
+    <td align=center>
+     &nbsp;
+    </td>
+   </tr>
+   <tr>
+    <td align=center>
+     &nbsp;
+    </td>
+   </tr>
+   <tr>
+    <td align=center><IFRAME src=http://www.nalsee.com/nalsee/u3type.html?id=oneday798&bid=1 width=140 height=69 frameborder=no scrolling=no></IFRAME><p><br>
+    </td>
+   </tr>
+   <tr>
+    <td align=center>
+     &nbsp;
+    </td>
+   </tr>
+   <tr>
+    <td align=center>
+     &nbsp;
+    </td>
+   </tr>
+   <tr>
+    <td align=center>
+     &nbsp;
+    </td>
+   </tr>
+
+   <tr>
+       <td align=center>
+        &nbsp;
+       </td>
+   </tr>
+      <tr>
+       <td align=center>
+        &nbsp;
+       </td>
+   </tr>
+   <tr>
+    <td align=center>
+     &nbsp;
+    </td>
+   </tr>
+		 </form>
+		 </table>
+
+<!--
+<table border=0>
+ <tr>
+  <td align=center>
+   <font face="Times New Roman" size="3" color=red><b>Date</b></font>
+  </td>
+  <td>
+   <img src="http://count.free.cgiserver.net/CrazyCounter.cgi?display=date|timezone=GMT+0900|dformat=YYMMDD|ft=1|dd=E" border="0">
+  </td>
+ </tr>
+ <tr>
+  <td align=center>
+   <font face="Times New Roman" size="3" color=yellow><b>Time</b></font>
+  </td>
+  <td>
+   <img src="http://count.free.cgiserver.net/CrazyCounter.cgi?display=clock|timezone=GMT+0900|tformat=12|ft=1|dd=E" border="0">
+  </td>
+ </tr>
+</table>
+    </td>
+   </tr>
+   <tr>
+    <td>&nbsp;</td>
+   </tr>
+-->
+<!--
+   <tr>
+    <td align=center><font size=2><b>"♬너에게난 나에겐 넌"</b><br>-자전거탄풍경-</font></td>
+   </tr>
+   <tr>
+    <td align=center>
+     <form name="onoff">
+      <input type="button" value="Music OFF" name="bgmusic" onClick="changeButton()" style="background-color:#4D60F0; color:white; border:0; font-family:돋움; font-size:9pt; width=70; height=18">
+     </form>
+      <embed name="sound" src="http://61.109.255.10/031028_ms/030507-top/020918-ms/jn030212/classic_ost_07.wma" hidden="true" autostart="true" loop="-1"></embed>
+    </td>
+   </tr>
+-->
+  </table>
+  </center>
+ </body>
+</html>
